@@ -1,0 +1,28 @@
+{
+  "_comment": "Self-rated, 0-100. Edit the numbers or labels, commit, and the Radar workflow redraws the charts (or run: python scripts/radar.py).",
+  "charts": [
+    {
+      "id": "focus",
+      "title": "engineering_focus",
+      "axes": [
+        { "label": "Backend & APIs", "value": 85 },
+        { "label": "AI / ML", "value": 80 },
+        { "label": "Full-Stack Web", "value": 85 },
+        { "label": "Databases", "value": 75 },
+        { "label": "Testing & QA", "value": 80 },
+        { "label": "DevOps & Cloud", "value": 60 }
+      ]
+    },
+    {
+      "id": "langs",
+      "title": "language_stack",
+      "axes": [
+        { "label": "TypeScript", "value": 85 },
+        { "label": "Python", "value": 85 },
+        { "label": "JavaScript", "value": 80 },
+        { "label": "SQL", "value": 75 },
+        { "label": "C / C++", "value": 60 }
+      ]
+    }
+  ]
+}

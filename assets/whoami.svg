@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" width="960" height="390" role="img" aria-labelledby="title desc">
+  <title id="title">whoami: Marco Delizo, Software &amp; AI Engineer</title>
+  <desc id="desc">A city-pop styled terminal card with Marco's location, current role, mission, and two featured projects, beside a striped sunset over Baguio pines.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff9a8b"/>
+      <stop offset="0.5" stop-color="#b9a6ff"/>
+      <stop offset="1" stop-color="#7ddcb8"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffcf8a"/>
+      <stop offset="1" stop-color="#ff8f86"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="art"><rect x="652" y="79" width="278" height="269" rx="8"/></clipPath>
+    <style>
+      text { font-family: JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+      @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-140px) } }
+      .fog { animation: drift 14s linear infinite; }
+    </style>
+  </defs>
+
+  <rect width="960" height="390" rx="18" fill="#14151b"/>
+  <rect x="9" y="9" width="942" height="372" rx="13" fill="none" stroke="url(#frame)" stroke-width="2"/>
+  <circle cx="35" cy="35" r="5" fill="#ff8f86"/>
+  <circle cx="54" cy="35" r="5" fill="#ffcf7a"/>
+  <circle cx="73" cy="35" r="5" fill="#7fd6b4"/>
+  <text x="98" y="40" fill="#8a8ca3" font-size="14">marcodlzo · ~/profile · zsh</text>
+  <text x="931" y="40" text-anchor="end" fill="#6b6e88" font-size="13">UTC+8</text>
+  <path d="M29 57H931" stroke="#2e3040"/>
+
+  <rect x="29" y="78" width="594" height="271" rx="9" fill="#1b1c24" stroke="#b9a6ff" stroke-opacity="0.75" stroke-width="1.5"/>
+  <text x="48" y="111" fill="#7ddcb8" font-size="20" font-weight="700">❯ whoami</text>
+  <text x="48" y="142" font-size="18" xml:space="preserve"><tspan fill="#e6e6ef">marco_delizo</tspan><tspan fill="#6b6e88">  ·  </tspan><tspan fill="#ffcf8a">Software &amp; AI Engineer</tspan></text>
+  <path d="M48 161H604" stroke="#2e3040"/>
+
+  <g font-size="14.5">
+    <text x="48" y="190" fill="#8a8ca3">location:</text>
+    <text x="168" y="190" fill="#b9a6ff">Baguio City, Philippines</text>
+    <text x="48" y="215" fill="#8a8ca3">now:</text>
+    <text x="168" y="215" fill="#ff9a8b">Backend AI Engineer Intern @ FlyRank AI</text>
+    <text x="48" y="240" fill="#8a8ca3">mission:</text>
+    <text x="168" y="240" fill="#7ddcb8">build systems you can explain, end to end</text>
+  </g>
+
+  <text x="48" y="279" fill="#7ddcb8" font-size="18" font-weight="700">❯ ls ~/projects</text>
+  <g font-size="14.5">
+    <text x="48" y="307" fill="#ff9a8b">cordex/</text>
+    <text x="168" y="307" fill="#c9cbe0">cardiac risk ML · XGBoost · Grad-CAM · SHAP</text>
+    <text x="48" y="332" fill="#ff9a8b">hexis/</text>
+    <text x="168" y="332" fill="#c9cbe0">TypeScript blockchain node · 88%+ coverage</text>
+  </g>
+
+  <rect x="651" y="78" width="280" height="271" rx="9" fill="#1b1c24" stroke="#b9a6ff" stroke-opacity="0.75" stroke-width="1.5"/>
+  <text x="674" y="111" fill="#ffcf8a" font-size="15">pine-city runtime</text>
+  <g clip-path="url(#art)">
+    <circle cx="791" cy="190" r="56" fill="url(#sun)"/>
+    <rect x="720" y="194" width="150" height="3" fill="#1b1c24"/>
+    <rect x="720" y="205" width="150" height="4" fill="#1b1c24"/>
+    <rect x="720" y="217" width="150" height="5" fill="#1b1c24"/>
+    <rect x="720" y="230" width="150" height="6" fill="#1b1c24"/>
+    <path d="M652 262 L690 240 L722 252 L760 230 L800 248 L838 226 L880 246 L930 232 V349 H652 Z" fill="#231f36"/>
+    <path d="M652 262 L690 240 L722 252 L760 230 L800 248 L838 226 L880 246 L930 232" fill="none" stroke="#b9a6ff" stroke-width="2" filter="url(#glow)"/>
+    <g class="fog" opacity="0.5">
+      <path d="M652 270 Q690 262 728 270 T804 270 T880 270 T956 270 T1032 270 T1108 270" fill="none" stroke="#c9cbe0" stroke-width="1.2"/>
+    </g>
+    <path d="M652 300 Q700 276 748 292 T842 284 T930 290 V349 H652 Z" fill="#162420"/>
+    <path d="M652 300 Q700 276 748 292 T842 284 T930 290" fill="none" stroke="#7ddcb8" stroke-width="2" filter="url(#glow)"/>
+    <g fill="#14151b" stroke="#7ddcb8" stroke-width="1.2" stroke-linejoin="round">
+      <path d="M676 330 L690 268 L704 330 Z"/>
+      <path d="M680 304 L690 258 L700 304 Z"/>
+      <path d="M700 336 L710 292 L720 336 Z"/>
+      <path d="M876 334 L892 262 L908 334 Z"/>
+      <path d="M880 302 L892 250 L904 302 Z"/>
+      <path d="M856 338 L865 300 L874 338 Z"/>
+    </g>
+    <rect x="652" y="316" width="278" height="33" fill="#1b1c24"/>
+  </g>
+  <path d="M651 316H931" stroke="#2e3040"/>
+  <text x="674" y="337" fill="#8a8ca3" font-size="13">status: open to collabs</text>
+</svg>
