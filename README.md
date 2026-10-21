@@ -121,7 +121,6 @@
 
 <a href="https://marcodlzo.vercel.app"><img src="https://img.shields.io/badge/Portfolio-ff9a8b?style=for-the-badge&amp;logo=vercel&amp;logoColor=14151b" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/marcodelizo/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
-<a href="https://marcodlzo.vercel.app/resume/Marco_Delizo_Resume.pdf"><img src="https://img.shields.io/badge/Resume-b9a6ff?style=for-the-badge&amp;logo=readdotcv&amp;logoColor=14151b" alt="Resume"></a>
 <a href="https://github.com/marcodlzo"><img src="https://img.shields.io/badge/GitHub-7ddcb8?style=for-the-badge&amp;logo=github&amp;logoColor=14151b" alt="GitHub"></a>
 
 <br><br>
