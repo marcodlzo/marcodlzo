@@ -27,6 +27,12 @@
   <img src="assets/whoami.svg" width="960" alt="Terminal card: Marco Delizo, Software and AI Engineer, based in Baguio City, Philippines, currently a Backend AI Engineer Intern at FlyRank AI. Featured projects: Cordex and Hexis.">
 </p>
 
+## `$ git log --graph career`
+
+<p align="center">
+  <img src="assets/experience.svg" width="960" alt="Experience timeline. Now: Backend AI Engineer Intern at FlyRank AI, remote, July 2026 to present. Before: Software Engineer Intern at Golden Suntec Solutions, Inc., Ortigas Center, Pasig, June to August 2026: built an AI document-review and corporate-training platform solo in 7 weeks with a zero-cost RAG pipeline, course generation from documents and video, and 727 tests. Education: BS Computer Science, Saint Louis University, 2023 to 2027.">
+</p>
+
 <br>
 
 <div align="center">

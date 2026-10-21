@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="960" height="470" role="img" aria-labelledby="title desc">
+  <title id="title">git log career: Marco Delizo's experience</title>
+  <desc id="desc">A git-log styled timeline. Now: Backend AI Engineer Intern at FlyRank AI, remote, July 2026 to present. Before: Software Engineer Intern at Golden Suntec Solutions, Inc., on-site in Ortigas Center, Pasig, June to August 2026, where he built an AI document-review and corporate-training platform solo in 7 weeks with a zero-cost RAG pipeline, course generation from documents and video, and 727 tests. Initial commit: BS Computer Science at Saint Louis University, 2023 to 2027.</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff9a8b"/>
+      <stop offset="0.5" stop-color="#b9a6ff"/>
+      <stop offset="1" stop-color="#7ddcb8"/>
+    </linearGradient>
+    <linearGradient id="branch" gradientUnits="userSpaceOnUse" x1="60" x2="60" y1="132" y2="410">
+      <stop offset="0" stop-color="#ff9a8b"/>
+      <stop offset="0.5" stop-color="#b9a6ff"/>
+      <stop offset="1" stop-color="#7ddcb8"/>
+    </linearGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text { font-family: JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+      .role { font-size: 17px; font-weight: 700; fill: #e6e6ef; }
+      .meta { font-size: 13px; fill: #8a8ca3; }
+      .where { font-size: 13.5px; }
+      .add { font-size: 14px; fill: #c9cbe0; }
+      .plus { fill: #7ddcb8; font-weight: 700; }
+      @keyframes pulse { 0% { r: 7; opacity: .55 } 70% { r: 17; opacity: 0 } 100% { r: 17; opacity: 0 } }
+      .ping { animation: pulse 2s ease-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="960" height="470" rx="18" fill="#14151b"/>
+  <rect x="9" y="9" width="942" height="452" rx="13" fill="none" stroke="url(#frame)" stroke-width="2"/>
+  <circle cx="35" cy="35" r="5" fill="#ff8f86"/>
+  <circle cx="54" cy="35" r="5" fill="#ffcf7a"/>
+  <circle cx="73" cy="35" r="5" fill="#7fd6b4"/>
+  <text x="98" y="40" fill="#8a8ca3" font-size="14">marcodlzo · ~/career · zsh</text>
+  <text x="931" y="40" text-anchor="end" fill="#6b6e88" font-size="13">3 commits</text>
+  <path d="M29 57H931" stroke="#2e3040"/>
+
+  <text x="40" y="92" fill="#7ddcb8" font-size="18" font-weight="700">❯ git log --graph career</text>
+
+  <!-- branch line -->
+  <path d="M60 132V410" stroke="url(#branch)" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- HEAD: FlyRank AI -->
+  <circle class="ping" cx="60" cy="132" r="7" fill="#ff9a8b"/>
+  <circle cx="60" cy="132" r="7" fill="#ff9a8b" filter="url(#glow)"/>
+  <text x="88" y="138" class="role">Backend AI Engineer Intern<tspan fill="#ff9a8b"> @ FlyRank AI</tspan></text>
+  <text x="931" y="138" text-anchor="end" class="meta"><tspan fill="#ffcf8a">(HEAD → now)</tspan>  Jul 2026 → present</text>
+  <text x="88" y="162" class="where" fill="#b9a6ff">remote · Chicago, Illinois, US</text>
+
+  <!-- Golden Suntec -->
+  <circle cx="60" cy="204" r="7" fill="#14151b" stroke="#b9a6ff" stroke-width="2.5"/>
+  <text x="88" y="210" class="role">Software Engineer Intern<tspan fill="#b9a6ff"> @ Golden Suntec Solutions, Inc.</tspan></text>
+  <text x="931" y="210" text-anchor="end" class="meta">Jun 2026 → Aug 2026</text>
+  <text x="88" y="234" class="where" fill="#b9a6ff">on-site · Ortigas Center, Pasig</text>
+  <g class="add">
+    <text x="88" y="264"><tspan class="plus">+ </tspan>built solo in 7 weeks: an AI document-review &amp; corporate-training platform</text>
+    <text x="88" y="288"><tspan class="plus">+ </tspan>zero-cost RAG: local embeddings + pgvector, 3-tier LLM fallback (Ollama → Gemini → stub)</text>
+    <text x="88" y="312"><tspan class="plus">+ </tspan>auto-generates courses from docs &amp; video · AI quizzes · auto-issued certificates</text>
+    <text x="88" y="336"><tspan class="plus">+ </tspan>727 tests via TDD · role-based access across 49 REST endpoints · CI + Docker</text>
+  </g>
+  <text x="88" y="360" font-size="12.5" fill="#6b6e88">stack: Next.js 15 · TypeScript · FastAPI · PostgreSQL/pgvector · Docling</text>
+
+  <!-- root: SLU -->
+  <circle cx="60" cy="410" r="7" fill="#14151b" stroke="#7ddcb8" stroke-width="2.5"/>
+  <text x="88" y="416" class="role">BS Computer Science<tspan fill="#7ddcb8"> @ Saint Louis University</tspan></text>
+  <text x="931" y="416" text-anchor="end" class="meta"><tspan fill="#ffcf8a">(initial commit)</tspan>  2023 → 2027</text>
+  <text x="88" y="440" class="where" fill="#b9a6ff">Baguio City · expected 2027</text>
+</svg>
