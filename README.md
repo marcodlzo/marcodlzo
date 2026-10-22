@@ -96,6 +96,15 @@
   <img src="https://streak-stats.demolab.com/?user=marcodlzo&amp;background=FFF9F5&amp;border=F3D9CF&amp;stroke=F3D9CF&amp;ring=E0607A&amp;fire=FF9A8B&amp;currStreakNum=E0607A&amp;sideNums=3B2D36&amp;currStreakLabel=7A5FC9&amp;sideLabels=B39A92&amp;dates=B39A92&amp;border_radius=14&amp;card_width=720&amp;timezone=Asia%2FManila" alt="GitHub contribution streak: total contributions, current streak and longest streak">
 </picture>
 
+<br><br>
+
+<!-- SNAKE: redrawn daily by .github/workflows/snake.yml onto the `output` branch -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/marcodlzo/marcodlzo/output/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/marcodlzo/marcodlzo/output/github-snake.svg">
+  <img src="https://raw.githubusercontent.com/marcodlzo/marcodlzo/output/github-snake.svg" width="880" alt="Snake game eating Marco's GitHub contribution graph">
+</picture>
+
 </div>
 
 ---
