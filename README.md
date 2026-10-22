@@ -72,8 +72,8 @@
         <sub><code>Git · GitHub · Docker · Linux · Vercel · VS Code</code></sub>
       </td>
       <td valign="top"><code>╰─ ◇ llm_engineering:</code><br><br>
-        <img src="assets/icon-claude.svg" height="48" alt="Claude"><br>
-        <sub><code>RAG pipelines · LLM APIs · Claude Code</code></sub>
+        <img src="assets/icons-llm.svg" alt="Claude, Codex, Gemini and Ollama"><br>
+        <sub><code>Claude Code · Codex · Gemini · Ollama · RAG</code></sub>
       </td>
     </tr>
     <tr>
