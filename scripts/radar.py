@@ -63,6 +63,12 @@ def build(chart: dict, c: dict) -> str:
         anchor = "middle" if abs(dx) < 12 else ("start" if dx > 0 else "end")
         if y < CY - R * 0.9:
             y -= 6
+        # Keep long labels inside the card (approx. monospace glyph widths).
+        width = len(a["label"]) * 7.6 + 6 + len(str(int(a["value"]))) * 6.7
+        if anchor == "start":
+            x = min(x, W - 16 - width)
+        elif anchor == "end":
+            x = max(x, 16 + width)
         labels.append(
             f'    <text x="{x:.1f}" y="{y:.1f}" text-anchor="{anchor}" font-size="12.5" fill="{c["label"]}">'
             f'{esc(a["label"])}<tspan dx="6" fill="{c["muted"]}" font-size="11">{int(a["value"])}</tspan></text>'

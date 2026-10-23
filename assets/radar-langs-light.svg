@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 362" width="480" height="362" role="img" aria-labelledby="t">
-  <title id="t">language_stack radar, self-rated 0 to 100: TypeScript 85, Python 85, JavaScript 80, SQL 75, C / C++ 60</title>
+  <title id="t">language_stack radar, self-rated 0 to 100: TypeScript 85, Python 85, JavaScript 80, SQL 75, C / C++ 60, Bash / Shell 60</title>
   <style>
     text { font-family: JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
     @keyframes grow { from { transform: scale(0.15); opacity: 0 } to { transform: scale(1); opacity: 1 } }
@@ -9,28 +9,31 @@
   <text x="22" y="34" font-size="14" font-weight="700" fill="#7a5fc9">❯ language_stack</text>
   <text x="458" y="34" text-anchor="end" font-size="11" fill="#b39a92">self-rated · 0-100</text>
   <g>
-    <polygon points="240.0,189.2 259.8,203.6 252.2,226.8 227.8,226.8 220.2,203.6" fill="none" stroke="#efd6cd"/>
-    <polygon points="240.0,168.4 279.6,197.1 264.5,243.7 215.5,243.7 200.4,197.1" fill="none" stroke="#efd6cd"/>
-    <polygon points="240.0,147.6 299.3,190.7 276.7,260.5 203.3,260.5 180.7,190.7" fill="none" stroke="#efd6cd"/>
-    <polygon points="240.0,126.8 319.1,184.3 288.9,277.3 191.1,277.3 160.9,184.3" fill="none" stroke="#efd6cd"/>
-    <polygon points="240.0,106.0 338.9,177.9 301.1,294.1 178.9,294.1 141.1,177.9" fill="none" stroke="#efd6cd"/>
+    <polygon points="240.0,189.2 258.0,199.6 258.0,220.4 240.0,230.8 222.0,220.4 222.0,199.6" fill="none" stroke="#efd6cd"/>
+    <polygon points="240.0,168.4 276.0,189.2 276.0,230.8 240.0,251.6 204.0,230.8 204.0,189.2" fill="none" stroke="#efd6cd"/>
+    <polygon points="240.0,147.6 294.0,178.8 294.0,241.2 240.0,272.4 186.0,241.2 186.0,178.8" fill="none" stroke="#efd6cd"/>
+    <polygon points="240.0,126.8 312.1,168.4 312.1,251.6 240.0,293.2 167.9,251.6 167.9,168.4" fill="none" stroke="#efd6cd"/>
+    <polygon points="240.0,106.0 330.1,158.0 330.1,262.0 240.0,314.0 149.9,262.0 149.9,158.0" fill="none" stroke="#efd6cd"/>
     <line x1="240" y1="210" x2="240.0" y2="106.0" stroke="#efd6cd"/>
-    <line x1="240" y1="210" x2="338.9" y2="177.9" stroke="#efd6cd"/>
-    <line x1="240" y1="210" x2="301.1" y2="294.1" stroke="#efd6cd"/>
-    <line x1="240" y1="210" x2="178.9" y2="294.1" stroke="#efd6cd"/>
-    <line x1="240" y1="210" x2="141.1" y2="177.9" stroke="#efd6cd"/>
+    <line x1="240" y1="210" x2="330.1" y2="158.0" stroke="#efd6cd"/>
+    <line x1="240" y1="210" x2="330.1" y2="262.0" stroke="#efd6cd"/>
+    <line x1="240" y1="210" x2="240.0" y2="314.0" stroke="#efd6cd"/>
+    <line x1="240" y1="210" x2="149.9" y2="262.0" stroke="#efd6cd"/>
+    <line x1="240" y1="210" x2="149.9" y2="158.0" stroke="#efd6cd"/>
   </g>
   <g class="shape">
-    <polygon points="240.0,121.6 324.1,182.7 288.9,277.3 194.2,273.1 180.7,190.7" fill="#ff9a8b" fill-opacity="0.28" stroke="#e0607a" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="240.0,121.6 316.6,165.8 312.1,251.6 240.0,288.0 186.0,241.2 186.0,178.8" fill="#ff9a8b" fill-opacity="0.28" stroke="#e0607a" stroke-width="2" stroke-linejoin="round"/>
     <circle cx="240.0" cy="121.6" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
-    <circle cx="324.1" cy="182.7" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
-    <circle cx="288.9" cy="277.3" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
-    <circle cx="194.2" cy="273.1" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
-    <circle cx="180.7" cy="190.7" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
+    <circle cx="316.6" cy="165.8" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
+    <circle cx="312.1" cy="251.6" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
+    <circle cx="240.0" cy="288.0" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
+    <circle cx="186.0" cy="241.2" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
+    <circle cx="186.0" cy="178.8" r="4" fill="#7a5fc9" stroke="#fff9f5" stroke-width="1.5"/>
   </g>
     <text x="240.0" y="82.3" text-anchor="middle" font-size="12.5" fill="#3b2d36">TypeScript<tspan dx="6" fill="#b39a92" font-size="11">85</tspan></text>
-    <text x="355.7" y="172.4" text-anchor="start" font-size="12.5" fill="#3b2d36">Python<tspan dx="6" fill="#b39a92" font-size="11">85</tspan></text>
-    <text x="311.5" y="308.4" text-anchor="start" font-size="12.5" fill="#3b2d36">JavaScript<tspan dx="6" fill="#b39a92" font-size="11">80</tspan></text>
-    <text x="168.5" y="308.4" text-anchor="end" font-size="12.5" fill="#3b2d36">SQL<tspan dx="6" fill="#b39a92" font-size="11">75</tspan></text>
-    <text x="124.3" y="172.4" text-anchor="end" font-size="12.5" fill="#3b2d36">C / C++<tspan dx="6" fill="#b39a92" font-size="11">60</tspan></text>
+    <text x="345.4" y="149.2" text-anchor="start" font-size="12.5" fill="#3b2d36">Python<tspan dx="6" fill="#b39a92" font-size="11">85</tspan></text>
+    <text x="345.4" y="270.8" text-anchor="start" font-size="12.5" fill="#3b2d36">JavaScript<tspan dx="6" fill="#b39a92" font-size="11">80</tspan></text>
+    <text x="240.0" y="331.7" text-anchor="middle" font-size="12.5" fill="#3b2d36">SQL<tspan dx="6" fill="#b39a92" font-size="11">75</tspan></text>
+    <text x="134.6" y="270.8" text-anchor="end" font-size="12.5" fill="#3b2d36">C / C++<tspan dx="6" fill="#b39a92" font-size="11">60</tspan></text>
+    <text x="134.6" y="149.2" text-anchor="end" font-size="12.5" fill="#3b2d36">Bash / Shell<tspan dx="6" fill="#b39a92" font-size="11">60</tspan></text>
 </svg>

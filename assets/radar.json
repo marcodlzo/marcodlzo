@@ -6,11 +6,12 @@
       "title": "engineering_focus",
       "axes": [
         { "label": "Backend & APIs", "value": 85 },
-        { "label": "AI / ML", "value": 80 },
         { "label": "Full-Stack Web", "value": 85 },
         { "label": "Databases", "value": 75 },
+        { "label": "LLM Engineering", "value": 85 },
+        { "label": "Machine Learning", "value": 80 },
         { "label": "Testing & QA", "value": 80 },
-        { "label": "DevOps & Cloud", "value": 60 }
+        { "label": "DevOps & CI/CD", "value": 65 }
       ]
     },
     {
@@ -21,7 +22,8 @@
         { "label": "Python", "value": 85 },
         { "label": "JavaScript", "value": 80 },
         { "label": "SQL", "value": 75 },
-        { "label": "C / C++", "value": 60 }
+        { "label": "C / C++", "value": 60 },
+        { "label": "Bash / Shell", "value": 60 }
       ]
     }
   ]
